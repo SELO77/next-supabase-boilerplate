@@ -1,0 +1,6 @@
+---
+description: UI & Component rules
+globs: *.tsx
+---
+# Your rule content
+- Use shadnc/ui, tailwind for components
