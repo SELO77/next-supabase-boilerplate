@@ -1,17 +1,26 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Prerequisites & Setup
+
+- Node.js 22+
+- pnpm
+- Next.js 15+ (with app router)
+- Supabase
+- Supabase Auth
+- Vercel
+- shadcn/ui
+- Tailwind CSS
+
+
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
+# setup environment variables
+cp env.example .env.local
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
